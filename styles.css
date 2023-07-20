@@ -1,0 +1,32 @@
+/* styles.css防止乱码 */
+@charset "UTF-8";
+/* 网站标题样式 */
+h1 {
+  color: blue;
+}
+
+/* 服务器信息样式 */ 
+.server-info {
+  color: green; 
+}
+
+/* 更多详情样式 */
+.more-details {
+   color: orange;
+}
+
+/* 活动列表样式 */
+.activity-list {
+  color: red; 
+}
+
+/* 折叠标签默认样式 */
+details {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* 鼠标移动到折叠标签上的样式 */ 
+details:hover {
+  background: #f6f6f6;
+}

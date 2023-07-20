@@ -2,93 +2,54 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>BlockCraft 我的世界服务器</title>
-
-  <!-- 样式表 -->
+  <title>magic世界Minecraft服务器</title>
   <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
 
-  <!-- 头部 -->
-  <header>
-    <h1>BlockCraft 我的世界服务器</h1>
-    <nav>
-      <a href="#">首页</a>
-      <a href="#">论坛</a>
-      <a href="#">直播</a>
-    </nav>
-  </header>
+  <!-- 网站标题 -->
+  <h1>magic世界Minecraft服务器</h1>
 
-  <!-- 主要内容 -->
-  <main id="main">
+  <!-- 服务器介绍容器 -->
+  <div class="intro">
 
-    <!-- 简介 -->
-    <section id="intro">
-      <p>
-        <span>各</span> <span>位</span> <span>冒</span> <span>险</span> <span>者</span>, 
-        <span>欢</span> <span>迎</span> <span>来</span> <span>到</span> <span>这</span> <span>个</span> <span>开</span> <span>放</span> <span>的</span> <span>我</span> <span>的</span> <span>世</span> <span>界</span> <span>服</span> <span>务</span> <span>器</span>!
-      </p>
-    </section>
+    <!-- 服务器介绍段落 -->
+    <p>
+      这是一个公开的生存服务器,由一群Minecraft爱好者自行架设。在这里你可以自由建造、探索、生存!我们有友好的社区,只要遵守简单的服务器规则,可以开心游戏。
+    </p>
 
-    <!-- 服务器信息 -->
-    <section id="server-info">
-
-      <h2>服务器信息</h2>
-
-      <p>
-        服务器名称:BlockCraft 我的世界服务器  
-      </p>
-
-      <p>
-        服务器地址:mc.blockcraft.com
-      </p>
-      
-      <p>
-        版本:Minecraft Java 1.16.5
-      </p>
-
-      <p>
-        支持版本:1.16.5 - 1.19
-      </p>  
-
-      <p>
-        在线人数:50人
-      </p>
-
-      <button class="toggle-details">展开详情</button>
-      
-      <div class="details">
-      
-        <p>服务器配置...</p>
-        
-        <p>已安装插件...</p>
-        
-        <p>服务器规则...</p>
-
+    <!-- 服务器信息折叠内容 -->
+    <details>
+      <summary>服务器信息</summary>
+      <div class="server-info">
+        服务器名称:magic世界Minecraft服务器<br>
+        版本:Java 1.16.5<br>  
+        在线人数:最高100人
       </div>
+    </details>
 
-    </section>
+    <!-- 更多详情折叠内容 -->
+    <details>
+      <summary>更多详情</summary>
+      <div class="more-details">
+        难度设置:正常<br>
+        已开放命令:/home<br>
+        服务器位置:美国  
+      </div>
+    </details>
 
-    <!-- 活动信息 -->
-    <section id="events">
-      <h2>活动列表</h2>
-      <ul>
-        <li>建筑大赛 - 6月8日</li>
-        <li>生存挑战赛 - 6月15日</li>
-      </ul>
-    </section>
+  </div>
+  
+  <!-- 活动列表折叠内容 -->
+<details>
+  <summary>活动列表</summary>
+  
+  <ul class="activity-list">
+    <li>6月8日 海上boss大战</li>
+    <li>6月15日 鸡场建设比赛</li> 
+  </ul>
 
-  </main>
-
-  <!-- 页脚 -->
-  <footer>
-    <p>&copy; 2021 BlockCraft 我的世界服务器</p>
-  </footer>
-
-  <!-- 脚本 -->
-  <script src="script.js"></script>
+</details>
 
 </body>
 </html>
