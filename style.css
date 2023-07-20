@@ -1,0 +1,61 @@
+/* 基础样式 */
+
+body {
+  font-family: Arial; 
+}
+
+/* 头部导航 */
+
+header {
+  background: #3b3b3b;
+  color: white;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+/* 文字动画 */
+
+#intro span {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#intro span.show {
+  opacity: 1;
+}
+
+/* 展开动画 */
+
+.details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s; 
+}
+
+.details.open {
+  max-height: 200px;
+}
+
+#intro span {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
